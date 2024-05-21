@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import './index.css'
 
 export default function Navbar(){
     return(
@@ -7,6 +6,7 @@ export default function Navbar(){
             <Link to="/">home</Link>
             <Link to="/blue">blue</Link>
             <Link to="/red">red</Link>
+            <Link to="/green">green</Link>
         </div>
     )
 }

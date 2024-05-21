@@ -30,6 +30,9 @@ body > div {
 .red {
   background-color: #b05f6d;
   color: white;
+  border: 1px purple;
+  border-radius: 0.5em;
+  font-size: 1.5em;
 }
 .blue {
   background-color: #275db3;
@@ -38,4 +41,17 @@ body > div {
 .home {
   background-color: aquamarine;
   color: white;
+}
+.green {
+  background-color: lime;
+  color: white;
+}
+a:hover{
+  background-color: black;
+  color: palegreen;
+}
+.additional-css{
+  border: 1px purple;
+  border-radius: 0.5em;
+  font-size: 1.5em;
 }
